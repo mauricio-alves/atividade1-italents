@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 1</title>
+
+  <link rel="stylesheet" href="src/css/styles.css" />
+  <script src="src/scripts/index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <a class="logo" href="index.html"><img class="img-white"
+          src="https://api-organizer.italents.com.br/portal/uploads/customer/5e26eafb-5f93-43da-a3e0-e991e3a439e5/upload/Logo_italents_padrao_horizontal_1685713962770.png"
+          alt="italents logo" /></a>
+      <h1>
+        Atividade 1 - iTalents
+      </h1>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <div>
+        <h2>Calculadora de IMC</h2>
+      </div>
+      <form id="form">
+        <div>
+          <input type="number" id="peso" min="0" oninput="getInputValue(event)"
+            placeholder="Digite seu peso aqui (ex.: 69,2)" required />
+          <input type="number" id="altura" min="0" max="2.5" oninput="getInputValue(event)"
+            placeholder="Digite sua altura aqui (ex.: 1,70)" required />
+        </div>
+        <div>
+          <button type="submit" id="submit-btn">Calcular</button>
+        </div>
+      </form>
+    </div>
+    <div>
+      <div id="resultado">
+        <h3>Resultado</h3>
+        <p>O resultado aparecerá aqui.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/mauricio-alves"> Maurício Alves ❤️</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
